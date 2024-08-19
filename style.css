@@ -1,0 +1,60 @@
+/* --------------------------------reset -------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p + p {
+    margin-top: 1lh;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*------------------------ Header --------------------------*/
+.header-icons{
+    width: 15px;
+    height: 15px;
+}
+
+nav div div{
+    align-items: center;
+    width: 100px;
+}
+nav div{
+    display: flex;
+    margin-left: 7px;
+}
+.header-menuimg{
+    margin-right: 20px;
+}
+.header-button{
+    background-color: white;
+    border: none;
+}
+.header-button:hover{
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-logo{
+    width: 500px;
+    height: 150px;
+}
+
+.header-login{
+    display: flex;
+    border: solid 2px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
