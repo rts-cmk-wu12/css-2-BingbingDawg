@@ -30,7 +30,7 @@ nav div{
     margin-left: 7px;
 }
 .header-menuimg{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .header-button{
     background-color: white;
@@ -47,12 +47,27 @@ header nav{
 .info-logo{
     width: 500px;
     height: 150px;
+    margin-left: -45px;
 }
 
 .header-login{
     display: flex;
-    border: solid 2px;
     align-items: center;
+}
+.header-loginIMG{
+    margin-top: 69.75px;
+    margin-right: 20px;
+    width: 10px;
+    height: 10px;
+}
+.header-login_button{
+   margin-right: -400px;
+}
+.navigation-atags{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    
 }
 a{
     text-decoration: none;
