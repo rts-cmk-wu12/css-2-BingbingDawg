@@ -98,12 +98,20 @@ a{
     height: 15px;
 }
 
+div aside p{
+    width: 250px;
+   text-align: right;
+    margin-left: 20px;
+
+}
+
 .First-article{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr 2fr;
     height: 100vh;
 }
+
 .first-articleimg{
     height: 500px;
     width: 700px;
@@ -114,5 +122,4 @@ a{
     margin-top: 90px;
     width: 270px;
     text-align: end;
-    
 }
