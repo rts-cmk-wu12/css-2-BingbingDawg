@@ -132,18 +132,37 @@ article h2{
 }
 /*-------------------------Read more----------------------*/
 .readmore{
-    margin-top: 20px;
+padding-top: 10px;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: 1fr 2fr;
-    grid-row: 1 1;
-    grid-column: 2 3;
-    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 220px 1fr;
+}
+.socials-aside{
+    width: 300px;
+    height: 200px;
+    display: flex;
 }
 .readmore-img{
     width: 15px;
     height: 15px;
 }
+.readmore-text{
+width: 300px;
+}
+.readmore-text2{
+width: 570px;
+text-align: center;
+align-content:end ;
+}
+.readmore-text{
+grid-column: 2 / 2;
+grid-row: 1 / 2;
+}
+.readmore-text2{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
 .article-date{
     display: flex;
     gap: 20px;
@@ -173,42 +192,87 @@ article h2{
 .socialmedia-button{
     height: 40px;
     width: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    margin-top: -100px;
+    margin-left: 300px;
 }
 .socialmedia-buttonimg{
    height: 30px;
    width: 30px;
- align-items: center;
-}   
+
+} 
+.social-buttons{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+   
 .facebook{
     background-color: #306199;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .twitter{
     background-color: #26c4f1;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .gmail{
 color: white;
 background-color: gray;
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
 .readmore-subscription{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    width: 560px;
+    margin-top: 180px;
+    box-shadow: -0px -24px 0px #fefefeec;
+}
+.readmore-subscription p{
+    padding-left: 25px;
+    width: 500px;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+   
+}
+.readmore-subscription a{
+   text-decoration: underline;
 }
 .click-herebutton{
-   width: 50px;
+   width: 300px;
    height: 50px;
+   border: none;
+   background-color: #dd0000 ;
+   color: white;
+   border-radius: 5px;
+   margin-left: 125px;
 }
-
-.readmore-text{
-width: 280px;
+/*---------------------------Did you read-------------------------*/
+.didyouread{
+    display: flex;
+    gap: 20px;
+    margin-top: 45px; 
+    justify-content: space-between;
 }
-
-.readmore-text2{
-    
+.didyouread h2{
+    display: flex;
+    align-items: center;
+}
+.didyouread-img{
+    width: 20px;
+    height: 20px;
+}
+.arrow-left{
+    margin-left: 1060px;
+    border: none;
+    background-color: white;
+}
+.arrow-right{
+    border: none;
+    background-color: white;
 }
