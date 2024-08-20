@@ -258,6 +258,8 @@ justify-content: space-around;
     gap: 20px;
     margin-top: 45px; 
     justify-content: space-between;
+    border-bottom: dotted gray 3px;
+    margin-bottom: 50px;
 }
 .didyouread h2{
     display: flex;
@@ -268,11 +270,26 @@ justify-content: space-around;
     height: 20px;
 }
 .arrow-left{
-    margin-left: 1060px;
+    margin-left: 1280px;
     border: none;
     background-color: white;
 }
 .arrow-right{
     border: none;
     background-color: white;
+}
+.fournewsarticles{
+    text-align: start;
+    width: 230px;
+}
+.four-articlegrid{
+    width: 80rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.fournewsarticles h2{
+    font-size: 20px;
+    width: 300px;
 }
